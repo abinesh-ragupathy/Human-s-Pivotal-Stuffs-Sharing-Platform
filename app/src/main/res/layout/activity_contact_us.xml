@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actvities.ContactUs">
+
+    <TextView
+        android:id="@+id/touch"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="Get in Touch"
+        android:paddingLeft="130dp"
+        android:paddingTop="50dp"
+        android:typeface="serif"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/num"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="8056371394"
+        android:paddingLeft="100dp"
+        android:paddingTop="85dp"
+        android:typeface="serif"
+        android:textIsSelectable="true"
+        android:textStyle="italic"
+        android:textColor="#FF8E3663"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="Address"
+        android:paddingLeft="140dp"
+        android:paddingTop="140dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/team"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6996ff"
+        android:textSize="30sp"
+        android:text="iShare Team"
+        android:paddingLeft="97dp"
+        android:paddingTop="170dp"
+        android:typeface="serif"
+        />
+    <TextView
+        android:id="@+id/clg"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFA4A4A4"
+        android:textSize="25sp"
+        android:text="Adhiyamaan College"
+        android:paddingLeft="70dp"
+        android:paddingTop="220dp"
+        android:typeface="serif"
+        />
+    <TextView
+        android:id="@+id/place"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFA4A4A4"
+        android:textSize="25sp"
+        android:text="Hosur - 635109"
+        android:paddingLeft="99dp"
+        android:paddingTop="260dp"
+        android:typeface="serif"
+        />
+    <TextView
+        android:id="@+id/region"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFA4A4A4"
+        android:textSize="25sp"
+        android:text="Tamilnadu , India"
+        android:paddingLeft="90dp"
+        android:paddingTop="300dp"
+        android:typeface="serif"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/painttree"
+        android:layout_marginTop="320dp"/>
+
+</android.support.constraint.ConstraintLayout>
